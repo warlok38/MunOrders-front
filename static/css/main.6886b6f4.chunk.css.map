@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Components/style.css"],"names":[],"mappings":"AAEA,KACI,QAAW,CACX,SACJ","file":"main.6886b6f4.chunk.css","sourcesContent":["@import '~antd/dist/antd.css';\r\n\r\nbody {\r\n    margin: 0px;\r\n    padding: 0px;\r\n}"]}
