@@ -1,6 +1,6 @@
-import { createBrowserHistory } from 'history';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 import { routes } from '../routes';
 import { MainMenu } from './MainMenu';
 import './style.css';

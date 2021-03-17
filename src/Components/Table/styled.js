@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Table as AntdTable } from 'antd';
 
 export const Wrapper = styled.div`
     display: flex;
@@ -10,7 +11,4 @@ export const Status = styled.div`
     line-height: 23px;
     font-weight: bold;
 `;
-export const Title = styled.div`
-    font-size: 14px;
-    line-height: 16px;
-`;
+export const Table = styled(AntdTable)``;

@@ -9,9 +9,9 @@ import { Provider } from 'react-redux';
 ReactDOM.render(
     <React.StrictMode>
         {/* <Provider> */}
-        <ConfigProvider locale={ruRU}>
-            <Root />
-        </ConfigProvider>
+        {/* <ConfigProvider locale={ruRU}> */}
+        <Root />
+        {/* </ConfigProvider> */}
         {/* </Provider> */}
     </React.StrictMode>,
     document.getElementById('root')
