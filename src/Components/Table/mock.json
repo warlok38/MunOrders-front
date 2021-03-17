@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "customerInn": 1234567898,
+        "customer": "ОАО Закупники",
+        "supplierInn": 9876543212,
+        "supplier": "ОАО Поставщикники",
+        "period": {
+            "dateFrom": "2019-03-29",
+            "dateTo": "2019-05-31"
+        },
+        "price": 1214994
+    },
+    {
+        "id": 2,
+        "customerInn": 1234567898,
+        "customer": "ООО Покупатели-онлайн",
+        "supplierInn": 9876543212,
+        "supplier": "ИП Дед Максим",
+        "period": {
+            "dateFrom": "2019-03-29",
+            "dateTo": "2019-05-31"
+        },
+        "price": 1214994
+    },
+    {
+        "id": 3,
+        "customerInn": 1234567898,
+        "customer": "ЗАО СТРОИМ ЛОМАЕМ",
+        "supplierInn": 9876543212,
+        "supplier": "ООО ГРАНИЦЫ КЛЮЧ",
+        "period": {
+            "dateFrom": "2019-03-29",
+            "dateTo": "2019-05-31"
+        },
+        "price": 1214994
+    }
+]

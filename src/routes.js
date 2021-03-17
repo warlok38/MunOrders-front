@@ -1,11 +1,11 @@
 import { NoMatch } from './Components/NoMatch';
+import { Table } from './Components/Table';
 
 export const routes = [
-    // пример
-    // {
-    //     path: '/path',
-    //     component: Component,
-    // }
+    {
+        path: '/table',
+        component: Table,
+    },
     {
         component: NoMatch,
     },

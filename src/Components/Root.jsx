@@ -1,13 +1,15 @@
 import { createBrowserHistory } from 'history';
 import React from 'react';
-import { Route, Router, Switch } from 'react-router';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { routes } from '../routes';
+import { MainMenu } from './MainMenu';
 import './style.css';
 
 export const Root = () => {
     return (
-        <Router history={createBrowserHistory()}>
+        <BrowserRouter history={createBrowserHistory()}>
             <Switch>
+                <Route path="/" render={MainMenu} exact />
                 {routes.map((route, index) => (
                     <Route
                         key={index}
@@ -17,6 +19,6 @@ export const Root = () => {
                     />
                 ))}
             </Switch>
-        </Router>
+        </BrowserRouter>
     );
 };
