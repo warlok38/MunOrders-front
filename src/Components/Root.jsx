@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import { routes } from '../routes';
 import { MainMenu } from './MainMenu';
@@ -7,7 +7,8 @@ import './style.css';
 
 export const Root = () => {
     return (
-        <BrowserRouter history={createBrowserHistory()}>
+        // HashRouter нужен для того, чтобы на gh-pages все грузилось
+        <HashRouter history={createBrowserHistory()}>
             <Switch>
                 <Route path="/" render={MainMenu} exact />
                 {routes.map((route, index) => (
@@ -19,6 +20,6 @@ export const Root = () => {
                     />
                 ))}
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
