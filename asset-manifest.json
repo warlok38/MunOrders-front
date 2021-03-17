@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/MunOrders-front/static/css/main.6886b6f4.chunk.css",
-    "main.js": "/MunOrders-front/static/js/main.0efe6c10.chunk.js",
-    "main.js.map": "/MunOrders-front/static/js/main.0efe6c10.chunk.js.map",
+    "main.js": "/MunOrders-front/static/js/main.b99826cf.chunk.js",
+    "main.js.map": "/MunOrders-front/static/js/main.b99826cf.chunk.js.map",
     "runtime-main.js": "/MunOrders-front/static/js/runtime-main.701631f0.js",
     "runtime-main.js.map": "/MunOrders-front/static/js/runtime-main.701631f0.js.map",
     "static/css/2.a708162c.chunk.css": "/MunOrders-front/static/css/2.a708162c.chunk.css",
-    "static/js/2.acd416f0.chunk.js": "/MunOrders-front/static/js/2.acd416f0.chunk.js",
-    "static/js/2.acd416f0.chunk.js.map": "/MunOrders-front/static/js/2.acd416f0.chunk.js.map",
+    "static/js/2.1124d1c7.chunk.js": "/MunOrders-front/static/js/2.1124d1c7.chunk.js",
+    "static/js/2.1124d1c7.chunk.js.map": "/MunOrders-front/static/js/2.1124d1c7.chunk.js.map",
     "index.html": "/MunOrders-front/index.html",
     "static/css/2.a708162c.chunk.css.map": "/MunOrders-front/static/css/2.a708162c.chunk.css.map",
     "static/css/main.6886b6f4.chunk.css.map": "/MunOrders-front/static/css/main.6886b6f4.chunk.css.map",
-    "static/js/2.acd416f0.chunk.js.LICENSE.txt": "/MunOrders-front/static/js/2.acd416f0.chunk.js.LICENSE.txt"
+    "static/js/2.1124d1c7.chunk.js.LICENSE.txt": "/MunOrders-front/static/js/2.1124d1c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.701631f0.js",
     "static/css/2.a708162c.chunk.css",
-    "static/js/2.acd416f0.chunk.js",
+    "static/js/2.1124d1c7.chunk.js",
     "static/css/main.6886b6f4.chunk.css",
-    "static/js/main.0efe6c10.chunk.js"
+    "static/js/main.b99826cf.chunk.js"
   ]
 }
